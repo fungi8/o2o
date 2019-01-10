@@ -38,7 +38,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>5.0.6.RELEASE</version>
+            <version>5.0.7.RELEASE</version>
         </dependency>
 
         <!--这个jar文件是所有应用都要用到的，它包含访问配置文件，创建和管理bean以及进行IoC/DI操作的所有类，
@@ -105,7 +105,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.3</version>
+            <version>2.9.8</version>
         </dependency>
 
         <!--Map工具类，对Spring Collection的扩展，spring-core.jar 使用到了这个-->
