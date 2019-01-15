@@ -1,10 +1,9 @@
 package cn.fungus.entity;
 
 import java.util.Date;
-
+//微信账号
 public class WechatAuth {
 	private Long wechatAuthId;
-	private Long userId;
 	private String openId;
 	private Date createTime;
 	private PersonInfo personInfo;
@@ -15,14 +14,6 @@ public class WechatAuth {
 
 	public void setWechatAuthId(Long wechatAuthId) {
 		this.wechatAuthId = wechatAuthId;
-	}
-
-	public Long getUserId() {
-		return userId;
-	}
-
-	public void setUserId(Long userId) {
-		this.userId = userId;
 	}
 
 	public String getOpenId() {

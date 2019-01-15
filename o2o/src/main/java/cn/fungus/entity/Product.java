@@ -14,8 +14,8 @@ public class Product implements Serializable{
 	private String productName;
 	private String productDesc;
 	private String imgAddr;// 简略图
-	private String normalPrice;
-	private String promotionPrice;
+	private String normalPrice; //原价
+	private String promotionPrice; //折扣价
 	private Integer priority;
 	private Date createTime;
 	private Date lastEditTime;

@@ -15,6 +15,7 @@ CREATE TABLE `tb_wechat_auth` (
   CONSTRAINT `fk_wechatauth_profile` FOREIGN KEY (`user_id`) REFERENCES `tb_person_info`(`user_id`)
 ) ENGINE = InnoDB AUTO_INCREMENT = 1 DEFAULT CHARSET = utf8;
 
+# alter table tb_wechat_auth add unique index(open_id);
 CREATE TABLE `tb_local_auth` (
   `local_auth_id` INT(10) NOT NULL AUTO_INCREMENT,
   `user_id` INT(10) NOT NULL ,

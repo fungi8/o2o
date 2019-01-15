@@ -3,12 +3,12 @@ package cn.fungus.entity;
 import java.util.Date;
 
 public class Area {
-	private Long areaId;
-	private String areaName;
-	private String areaDesc;
-	private Integer priority;
-	private Date createTime;
-	private Date lastEditTime;
+	private Long areaId; //区域ID
+	private String areaName; //名称
+//	private String areaDesc; //区域描述
+	private Integer priority; //权重
+	private Date createTime; //创建时间
+	private Date lastEditTime; //更新时间
 
 	public Long getAreaId() {
 		return areaId;
@@ -26,13 +26,13 @@ public class Area {
 		this.areaName = areaName;
 	}
 
-	public String getAreaDesc() {
-		return areaDesc;
-	}
-
-	public void setAreaDesc(String areaDesc) {
-		this.areaDesc = areaDesc;
-	}
+//	public String getAreaDesc() {
+//		return areaDesc;
+//	}
+//
+//	public void setAreaDesc(String areaDesc) {
+//		this.areaDesc = areaDesc;
+//	}
 
 	public Integer getPriority() {
 		return priority;
