@@ -1,6 +1,7 @@
 package cn.fungus.service;
 
 import cn.fungus.entity.Area;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -9,6 +10,5 @@ import java.util.List;
  **/
 
 public interface AreaService {
-
     List<Area> getAreaList();
 }

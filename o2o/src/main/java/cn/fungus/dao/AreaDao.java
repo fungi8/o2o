@@ -1,7 +1,6 @@
 package cn.fungus.dao;
 
 import cn.fungus.entity.Area;
-
 import java.util.List;
 
 /**
