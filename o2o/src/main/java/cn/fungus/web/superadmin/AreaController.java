@@ -22,6 +22,7 @@ import java.util.Map;
 @Controller
 @RequestMapping("/superadmin")
 public class AreaController {
+
     Logger logger = LoggerFactory.getLogger(AreaController.class);
 
     @Autowired
