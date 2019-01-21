@@ -17,11 +17,10 @@ import java.util.Random;
 
 public class ImageUtil {
     private static String basePath = Thread.currentThread().getContextClassLoader().getResource("").getPath();
-
     private static final SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
     private static final Random r = new Random();
 
-    public static void generateThumbnail(CommonsMultipartFile thumbnail, String targetAddr) {
+    public static String generateThumbnail(CommonsMultipartFile thumbnail, String targetAddr) {
         String realFileName = getRandomFileName();
         String extension = getFileExtension(thumbnail);
         markDirPath(targetAddr);
@@ -34,6 +33,7 @@ public class ImageUtil {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return relativeAddr;
     }
 
     /**
